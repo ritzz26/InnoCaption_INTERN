@@ -1,0 +1,16 @@
+/* ProductList.css */
+
+  /* Apply margin to the bottom of each product card */
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .card{
+    width: 30vw;
+  }
+
+  .card-img-top{
+    width: 40%;
+  }
