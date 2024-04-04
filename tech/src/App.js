@@ -7,7 +7,6 @@ import SearchBar from './components/SearchBar';
 function App() {
   return (
     <div className="App">
-      <h1>E-commerce Platform</h1>
       <div className="container">
         {/* <div className="row"> */}
           <div className="col-md-8">
