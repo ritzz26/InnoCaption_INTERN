@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import './SearchBar.css';
 
 const SearchBar = ({ value, onChange, onSearch }) => {
@@ -31,8 +33,8 @@ const SearchBar = ({ value, onChange, onSearch }) => {
         onKeyPress={handleKeyPress}
         className="form-control"
       />
-      <button onClick={handleSearchClick} className="search-button">
-        Search
+      <button className="search-button" onClick={handleSearchClick}>
+      <FontAwesomeIcon icon={faSearch} />
       </button>
     </div>
   );

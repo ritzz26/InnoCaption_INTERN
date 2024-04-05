@@ -1,6 +1,10 @@
 /* ProductList.css */
 
   /* Apply margin to the bottom of each product card */
+
+  .container{
+    padding: 1%;
+  }
   .row{
     display: flex;
     flex-wrap: wrap;
@@ -11,6 +15,64 @@
     width: 30vw;
   }
 
-  .card-img-top{
-    width: 40%;
+  .card img {
+    max-width: 15vw;
+  max-height: 15vw; 
+  width: auto; 
+  height: auto;
+  object-fit: contain; 
+    padding-left: 25%;
+  }
+
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-text {
+    margin-bottom: 0.25rem;
+  }
+  
+  .card-description {
+    font-style: italic;
+    color: #666;
+  }
+  
+  .card-price {
+    float: right;
+    font-weight: bold;
+  }
+  
+  .card-rating {
+    float: left;
+    color: #e4c25c;
+    font-weight: bold; 
+  }
+
+  .card input{
+    width: 97%;
+    text-align: center;
+  }
+  
+  .card button {
+    background-color: grey;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px; 
   }
