@@ -29,7 +29,7 @@ export default function Signup() {
     >
       <form className="login-form" onSubmit={submithandler}>
         <div className="login-form-content">
-          <h3 className="login-form-title">Log In</h3>
+          <h3 className="login-form-title">Sign Up</h3>
           <div className="text-center">
             Returning User?{" "}
             <span className="link-primary" onClick={() => navigate("/")}>
